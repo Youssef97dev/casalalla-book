@@ -5,7 +5,7 @@ const SimpleMenu = () => {
     <div className="bg-primary_12 h-full lg:h-[120vh] w-full flex flex-col lg:flex-row justify-center items-center px-5 lg:px-20 py-8 lg:py-16 gap-2 lg:gap-5">
       <div className="w-full h-full flex justify-center items-center">
         <Image
-          src="https://res.cloudinary.com/dz7wroord/image/upload/c_fit,h_2000,w_1333/casa%20Lalla/cribaruuifpdgsaukc83"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/ycfub6xp8gjuz3gla8xh"
           height={1000}
           width={500}
           className="object-cover"

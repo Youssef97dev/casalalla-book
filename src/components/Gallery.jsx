@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const imagesUrl = [
-  "https://res.cloudinary.com/dz7wroord/image/upload/c_crop,h_4503,w_4503/casa%20Lalla/casa9_xsgtun",
+  "https://res.cloudinary.com/dz7wroord/image/upload/c_crop,h_4503,w_4503/casalalla-v2/cm7aur2bolaw6ejyzsuq",
   "https://res.cloudinary.com/dz7wroord/image/upload/c_crop,h_4503,w_4503/casa%20Lalla/ebol3p21f6cjzaei9duu",
   "https://res.cloudinary.com/dz7wroord/image/upload/c_crop,h_4503,w_4503/casa%20Lalla/ire8b4lttkaofa5scit3",
 ];
