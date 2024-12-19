@@ -14,7 +14,7 @@ const Logo = () => {
           className="object-cover"
         />
       </div>
-      <div className="w-full h-[18%] bg-[#eceff1] text-primary_10 shadow-inner shadow-[#00000065] flex justify-center items-center gap-5">
+      <div className="w-full h-[18%] bg-[#eceff1] text-black shadow-inner shadow-[#00000065] flex justify-center items-center gap-5">
         <div className="flex justify-center items-center gap-3">
           <MdLocalPhone size={20} />
         </div>

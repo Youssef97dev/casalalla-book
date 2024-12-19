@@ -83,7 +83,7 @@ const ReservationForm = () => {
                   onChange={handleChange}
                   placeholder="Fisrt Name"
                   required
-                  className="w-full border-b border-primary_11 placeholder:text-primary_11 bg-[#0000001c] p-2 outline-none text-primary_11"
+                  className="w-full border-b border-black placeholder:text-gray-500 bg-[#0000001c] p-2 outline-none text-black"
                 />
                 <input
                   type="text"
@@ -93,7 +93,7 @@ const ReservationForm = () => {
                   onChange={handleChange}
                   placeholder="Last Name"
                   required
-                  className="w-full border-b border-primary_11 placeholder:text-primary_11 bg-[#0000001c] p-2 outline-none text-primary_11"
+                  className="w-full border-b border-black placeholder:text-gray-500 bg-[#0000001c] p-2 outline-none text-black"
                 />
               </div>
               <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-3">
@@ -105,7 +105,7 @@ const ReservationForm = () => {
                   onChange={handleChange}
                   placeholder="Enter Email"
                   required
-                  className="w-full border-b border-primary_11 placeholder:text-primary_11 bg-[#0000001c] p-2 outline-none text-primary_11"
+                  className="w-full border-b border-black placeholder:text-gray-500 bg-[#0000001c] p-2 outline-none text-black"
                 />
                 <input
                   type="tel"
@@ -115,7 +115,7 @@ const ReservationForm = () => {
                   onChange={handleChange}
                   placeholder="Enter Phone Number"
                   required
-                  className="w-full border-b border-primary_11 placeholder:text-primary_11 bg-[#0000001c] p-2 outline-none text-primary_11"
+                  className="w-full border-b border-black placeholder:text-gray-500 bg-[#0000001c] p-2 outline-none text-black"
                 />
               </div>
               <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-3">
@@ -127,13 +127,13 @@ const ReservationForm = () => {
                     position: "auto left",
                   }}
                   value={date2}
-                  className="w-full border-b border-primary_11 bg-[#0000001c] p-2 outline-none text-primary_11"
+                  className="w-full border-b border-black bg-[#0000001c] p-2 outline-none text-black"
                   onChange={(date2) => setDate2(date2)}
                 />
                 <select
                   onChange={handleChange}
                   name="numberPerson"
-                  className="w-full border-b border-primary_11 bg-[#0000001c] p-[9px] outline-none text-primary_11"
+                  className="w-full border-b border-black bg-[#0000001c] p-[9px] outline-none text-black"
                 >
                   <option value="2">2</option>
                   {numbers.map((value) => (
@@ -146,10 +146,14 @@ const ReservationForm = () => {
               <div className="w-full flex flex-col lg:flex-row justify-center items-center">
                 <button
                   type="submit"
-                  className="lg:w-[15%] w-full ml-auto bg-primary_11 disabled:bg-primary_6 text-white flex justify-center items-center py-2 px-4 rounded cursor-pointer"
+                  className="lg:w-[15%] w-full ml-auto bg-black disabled:bg-gray-500 text-white flex justify-center items-center py-2 px-4 rounded cursor-pointer"
                   disabled={loading}
                 >
-                  {loading ? <ClockLoader size={20} color="#fff" /> : "Reserve"}
+                  {loading ? (
+                    <ClockLoader size={20} color="#000000" />
+                  ) : (
+                    "Reserve"
+                  )}
                 </button>
               </div>
             </div>
