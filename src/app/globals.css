@@ -56,40 +56,6 @@ body {
   font-family: "Helvetica", serif;
 }
 
-/* scroll bar */
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-.no-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: var(--brown-10);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--brown-70);
-  border-radius: 5px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--brown-100);
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
