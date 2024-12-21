@@ -13,7 +13,7 @@ const Loader = () => {
 
   useEffect(() => {
     // Simulate loading time
-    const timer = setTimeout(() => setIsClient(true), 2900);
+    const timer = setTimeout(() => setIsClient(true), 2500);
     return () => clearTimeout(timer);
   }, []);
 
@@ -41,12 +41,21 @@ const Loader = () => {
           </div>
         </div>
       ) : (
-        <div className="flex items-center justify-center h-screen bg-[#F5EDE2]">
-          <img
-            src="/logo-1.png" // Replace with the path to your logo
-            alt="Loading..."
-            className="w-32 h-32 animate-pulse"
-          />
+        <div className="fixed inset-0 z-40 flex items-center justify-center">
+          {/* Initial white background animation */}
+          <div className="absolute inset-0 flex z-50">
+            <div className="bg-[#FFFFFF]  flex-1 animate-slide-left"></div>
+            <div className="bg-[#FFFFFF]  flex-1 animate-slide-right"></div>
+          </div>
+
+          {/* Beige background with logo animation */}
+          <div className="absolute inset-0 bg-[#F5EDE2] flex items-center justify-center">
+            <img
+              src="/logo-1.png" // Replace with your logo path
+              alt="Logo"
+              className="w-32 h-32 animate-scale-3d"
+            />
+          </div>
         </div>
       )}
     </>
