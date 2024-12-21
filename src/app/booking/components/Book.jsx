@@ -8,11 +8,6 @@ import DatePicker from "rsuite/DatePicker";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { IoMdPerson } from "react-icons/io";
 import Link from "next/link";
-import {
-  FaSquareWhatsapp,
-  FaSquareInstagram,
-  FaSquareEnvelope,
-} from "react-icons/fa6";
 
 // Import Swiper styles
 import "swiper/css";
