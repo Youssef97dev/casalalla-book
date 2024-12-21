@@ -35,7 +35,7 @@ const Loader = () => {
             >
               <FaSquareInstagram size={30} className="cursor-pointer" />
             </Link>
-            <Link target="_blank" href="http://wa.me/212675480018">
+            <Link target="_blank" href="http://wa.me/212675480103">
               <FaSquareWhatsapp size={30} className="cursor-pointer" />
             </Link>
           </div>
