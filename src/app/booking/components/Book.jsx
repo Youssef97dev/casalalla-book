@@ -209,7 +209,7 @@ const Book = () => {
               alt="itemImage"
             />
           </div>
-          <div className="absolute w-full flex flex-col gap-4 justify-center items-start left-3 text-[#ffffff] top-1/2 z-20">
+          <div className="absolute w-full flex flex-col gap-2 justify-center items-start left-3 text-[#ffffff] top-1/2 z-20">
             <Link
               target="_blank"
               href="mailto:reservations@casalallatakerkoust.com"
