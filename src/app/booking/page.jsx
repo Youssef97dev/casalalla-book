@@ -8,9 +8,9 @@ import {
 
 const page = () => {
   return (
-    <div className="bg-[#F5EDE2] w-full flex flex-col justify-start items-center h-[120vh] px-0 lg:px-20 xl:px-96 py-0 lg:py-10">
+    <div className="bg-[#F5EDE2] w-full flex flex-col justify-start items-center h-[130vh] px-0 lg:px-20 xl:px-96 py-0 lg:py-10">
       <Book />
-      <div className="w-full flex gap-2 justify-center text-[#333333] items-center mt-5">
+      <div className="w-full h-full flex gap-2 justify-center text-[#333333] items-center">
         <Link
           target="_blank"
           href="mailto:reservations@casalallatakerkoust.com"
