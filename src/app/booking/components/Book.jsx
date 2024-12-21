@@ -29,7 +29,6 @@ const items = [
 ];
 
 const itemsMobile = [
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casa%20Lalla/ebol3p21f6cjzaei9duu",
   "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casa%20Lalla/g0gel0gr7eawfbrr3gzh",
   "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casa%20Lalla/ozhlnzhixzekfblvs53j",
   "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casa%20Lalla/zdeg62pnnarojbbmb6py",
