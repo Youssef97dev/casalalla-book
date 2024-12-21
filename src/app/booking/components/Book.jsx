@@ -160,7 +160,7 @@ const Book = () => {
             </div>
           </Swiper>
         </div>
-        <div className="w-full h-full block lg:hidden">
+        <div className="w-full h-full relative block lg:hidden">
           <Swiper
             modules={[Navigation, Autoplay]}
             autoplay={{
@@ -185,11 +185,25 @@ const Book = () => {
                       className="w-full max-h-full object-cover"
                       alt="itemImage"
                     />
+                    <div
+                      className="absolute z-10 top-0 left-0 w-full h-full"
+                      style={{
+                        background:
+                          "linear-gradient(to bottom, #00000063, transparent)",
+                      }}
+                    ></div>
                   </SwiperSlide>
                 );
               })}
             </div>
           </Swiper>
+          <div className="absolute w-full flex justify-center items-center top-3 z-20">
+            <img
+              src={`/logo-2.png`}
+              className="w-[40%] max-h-full object-cover"
+              alt="itemImage"
+            />
+          </div>
         </div>
         {!messageSent ? (
           <div className="w-full flex flex-col justify-center items-center gap-4 bg-[#FFFFFF] py-4 px-3 lg:px-5">
