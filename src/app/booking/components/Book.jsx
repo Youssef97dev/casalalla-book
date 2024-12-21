@@ -209,23 +209,6 @@ const Book = () => {
               alt="itemImage"
             />
           </div>
-          <div className="absolute w-full flex flex-col gap-2 justify-center items-start left-3 text-[#ffffff] bottom-3 z-20">
-            <Link
-              target="_blank"
-              href="mailto:reservations@casalallatakerkoust.com"
-            >
-              <FaSquareEnvelope size={30} className="cursor-pointer" />
-            </Link>
-            <Link
-              target="_blank"
-              href="https://www.instagram.com/casa.lalla.takerkoust"
-            >
-              <FaSquareInstagram size={30} className="cursor-pointer" />
-            </Link>
-            <Link target="_blank" href="http://wa.me/212675480018">
-              <FaSquareWhatsapp size={30} className="cursor-pointer" />
-            </Link>
-          </div>
         </div>
         {!messageSent ? (
           <div className="w-full flex flex-col justify-center items-center gap-4 bg-[#FFFFFF] py-4 px-3 lg:px-5">
