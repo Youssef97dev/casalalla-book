@@ -8,6 +8,11 @@ import DatePicker from "rsuite/DatePicker";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { IoMdPerson } from "react-icons/io";
 import Link from "next/link";
+import {
+  FaSquareWhatsapp,
+  FaSquareInstagram,
+  FaSquareEnvelope,
+} from "react-icons/fa6";
 
 // Import Swiper styles
 import "swiper/css";
@@ -203,6 +208,23 @@ const Book = () => {
               className="w-[40%] max-h-full object-cover"
               alt="itemImage"
             />
+          </div>
+          <div className="absolute w-full flex flex-col gap-4 justify-center items-start left-3 text-[#ffffff] top-1/2 z-20">
+            <Link
+              target="_blank"
+              href="mailto:reservations@casalallatakerkoust.com"
+            >
+              <FaSquareEnvelope size={30} className="cursor-pointer" />
+            </Link>
+            <Link
+              target="_blank"
+              href="https://www.instagram.com/casa.lalla.takerkoust"
+            >
+              <FaSquareInstagram size={30} className="cursor-pointer" />
+            </Link>
+            <Link target="_blank" href="http://wa.me/212675480018">
+              <FaSquareWhatsapp size={30} className="cursor-pointer" />
+            </Link>
           </div>
         </div>
         {!messageSent ? (
